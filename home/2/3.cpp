@@ -1,4 +1,4 @@
-#include "1.h"
+#include "myLinal.h"
 int main() {
     Vector vec, vec2, res, res2;
     double k = 0;
