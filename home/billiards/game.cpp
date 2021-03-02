@@ -42,8 +42,6 @@ void Game::step() {
             position[j] = position[j] - 2 * normal_factor * normal[i];
             velocity[j] = velocity[j] - 2 * QVector2D::dotProduct(velocity[j], normal[i]) * normal[i];
       }
-           qDebug() << j;
-           qDebug() << position[j] << velocity[j];
     }
   }
  for(int i = 0; i < 16; ++i) {
